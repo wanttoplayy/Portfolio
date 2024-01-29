@@ -1,12 +1,11 @@
-import { ModeToggle } from "@/components/darkmode";
-import { NavPort } from "@/components/nav";
+import Hero from "@/components/Hero";
+
 import * as React from "react";
 
 export default function Home() {
   return (
     <div>
-      <ModeToggle></ModeToggle>
-      <NavPort />
+      <Hero />
     </div>
   );
 }
